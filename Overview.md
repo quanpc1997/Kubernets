@@ -16,14 +16,14 @@ _(Nhấp vào tiêu đề để đọc chi tiết thêm)_
 	* Là định danh để filter hoặc để áp dụng 1 service.
 * **Annotation**: là chú thích.
 
-[Chi tiết](../K8s detail/Label and Annotations.md)
+- [Chi tiết](../K8s detail/Label and Annotations.md)
 
 ### Replica Set
 	* Quy định số bản pod giống hệt nhau chạy cùng 1 số dịch vụ.
 	* Khi có bất kì vấn đề nào khiến 1 số pod không chạy được. Nó sẽ tự tạo thêm pod mới đúng bằng số pod bị chết.
 	* Thông qua Replica Set controller, K8s sẽ quản lý vòng đời của các Pod, scale up/down, deployment, monitoring,...
 	* Để config một Replica set bao gồm: resplicas, selector, template
-[Chi tiết](../K8s detail/ReplicaSets.md)
+[Chi tiết](K8s detail/ReplicaSets.md)
 
 ### Deployment
 	* Là một phiên bản cao hơn của replicas controller. Quản lí cách thức triển khai của replicas set. Chúng có khả năng cập nhật phiên bản mới cho các replica set và images, khả năng rollback lại phiên bản cũ mà không gây ảnh hướng đến công việc các pod đang chạy.
