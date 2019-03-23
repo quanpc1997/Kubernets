@@ -106,6 +106,5 @@ Thông thường thì số lượng **Master node** sẽ ít hơn node worker. N
 ### CLI
 *kubectl là thành phần cung cấp câu lệnh để người dùng tương tác với K8S. kubectl có thể chạy trên bất cứ máy nào có kết nối với K8S API-server.
 
-## Pod network
-Đây là một cụm nhằm đảm bảo các container có thể truyền thông được với nhau. Có nhiều lựa chọn về pod network.
+[Các khái niệm cơ bản](Overview.md)
 
